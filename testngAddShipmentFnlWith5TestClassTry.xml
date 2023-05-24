@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteEdit">
+  <test  name="TestEdit" group-by-instances="true">
+    <classes>
+      <class name="com.efs.regression.testcases.AddShipmentFnlTestClassTry"/>
+      <class name="com.efs.regression.testcases.SlabRateRegTestClass"/>
+      <class name="com.efs.regression.testcases.OdaRateTestClass"/>
+      <class name="com.efs.regression.testcases.AddServiceTypeRegTestClass"/>
+    </classes>
+  </test> <!-- TestEdit -->
+</suite> <!-- SuiteEdit -->
